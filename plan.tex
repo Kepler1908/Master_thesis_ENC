@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{enumitem}
+\usepackage{biblatex}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\title{Plan de Mémoire}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{Introduction (5--10 pages)}
+
+\begin{enumerate}[label=\alph*.]
+    \item Définition scientifique du multilatéralisme (contemporaine et historique).
+    \item Émergence du multilatéralisme après la Seconde Guerre mondiale (avec visualisation à l’aide de Google Ngram).
+    \item Questionnement sur l’existence d’un multilatéralisme après la Première Guerre mondiale, en prenant en compte la Société des Nations ainsi que d’autres initiatives ou réflexions quasi-multilatérales (e. g. Richard Coudenhove-Kalergi).
+    \item Focalisation sur le Parlement français : son rôle comme institution de pouvoir, l’importance de la France dans la politique internationale, et comparaison avec les parlements contemporains pour comprendre le rôle du Parlement de l’époque dans les affaires internationales.
+    \item{Questions de recherche :}
+        \begin{enumerate}
+        \item Comment le multilatéralisme se manifeste-t-il au sein du Parlement français ? À défaut, comment celui-ci perçoit-il et traite-t-il les questions de politique .internationale ?
+        \item Comment les technologies de type \textit{Retrieval-Augmented Generation} peuvent-elles être appliquées à la recherche historique ?
+        \end{enumerate}
+    \item Annonce de plan de mémoire.
+\end{enumerate}
+
+\section*{Partie I (15--20 pages)}
+
+\subsection*{Parlement entre les deux guerres}
+
+\begin{enumerate}[label=\alph*.]
+    \item Évolution des relations entre le gouvernement et le Parlement.
+    \item Évolution des relations entre le Sénat et la Chambre des députés.
+    \item Évolution des rapports de force entre les partis politiques au sein du Parlement.
+    \item Réformes institutionnelles majeures au sein du Parlement.
+\end{enumerate}
+
+\subsection*{Histoire de multilatéralisme}
+
+\begin{enumerate}[label=\alph*.]
+    \item Définition et évolution du concept de multilatéralisme.
+    \item Pratiques multilatérales dans le cadre de la Société des Nations.
+    \item Initiatives multilatérales en dehors de la Société des Nations.
+\end{enumerate}
+
+\section*{Partie II (25--30 pages)}
+
+\subsection*{Outils numériques et leur application à la recherche historique}
+
+\begin{enumerate}[label=\alph*.]
+    \item Named Entity Recognition
+        \begin{enumerate}
+        \item Importance de la reconnaissance d’entités nommées et ses applications dans les sciences humaines et sociales (exemples concrets des recherches).
+        \item Présentation de la technique de NER utilisée (explication accessible).
+        \end{enumerate}
+    \item Large Language Model
+        \begin{enumerate}
+        \item Importance/Applications des LLM dans le traitement de corpus textuels (annotation, extraction d’information, etc.), et les examples de recherches.
+        \end{enumerate}
+    \item Retrieval-Augmented Generation
+        \begin{enumerate}
+        \item Présentation des différentes structures et solutions RAG, avec leurs avantages et inconvénients.
+        \item Exemples d’application du RAG en recherche historique (cf. Pellet).
+        \end{enumerate}
+\end{enumerate}
+
+\subsection*{Description des données}
+
+\begin{enumerate}[label=\alph*.]
+    \item Sources des données utilisées.
+    \item Nature des données.
+    \item Visualisation des erreurs et biais existants dans les données (distributions, lacunes, etc.).
+\end{enumerate}
+
+\subsection*{Traitement des données}
+
+\begin{enumerate}[label=\alph*.]
+    \item Objectifs et étapes du pipeline de traitement.
+    \item Problèmes rencontrés et limites méthodologiques à chaque étape.
+\end{enumerate}
+
+\section*{Résultats (35--40 pages)}
+
+\subsection*{Analyse quantitative}
+
+\begin{enumerate}[label=\alph*.]
+    \item Description de la structure du graphe de connaissances généré à partir des données.
+\end{enumerate}
+
+\subsection*{Analyse qualitative}
+
+\begin{enumerate}[label=\alph*.]
+    \item Croisement entre les descriptions de nœuds générées par les outils numériques et les matériaux historiques issus de recherches traditionnelles.
+\end{enumerate}
+
+\section*{Conlusion (5--10 pages)}
+
+\begin{enumerate}[label=\alph*.]
+    \item Réponse synthétique aux questions de recherche sur le multilatéralisme.
+    \item Importance de grand corpus et d'outil de l'IA (corpus multilingue).
+    \item Limites du pipeline mis en œuvre.
+    \item Potentiel futur d’application des technologies de type RAG dans les recherches historiques (Débat entre le RAG et le LLM de long contexte).
+\end{enumerate}
+
+\end{document}
